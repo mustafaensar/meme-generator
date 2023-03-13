@@ -2,7 +2,7 @@ import React from "react";
 
 function Ternary(){
   
-  const [messages, setMessages] = React.useState(["first message"]);
+  const [messages, setMessages] = React.useState(["first message", "second message"]);
 
   function body(){
     return(
@@ -18,12 +18,6 @@ function Ternary(){
 
   return(
     <>
-      {
-        messages.length === 0 ?
-        <h1>No Messages</h1> :
-        <h1>There are unread messages</h1>
-      }
-
       {body()}
     </>
   )
