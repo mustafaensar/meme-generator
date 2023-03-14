@@ -5,19 +5,21 @@ import Meme from './components/Meme';
 import Navbar from './components/Navbar';
 import Signup from './components/Signup';
 import Ternary from './components/Ternary';
+import UseEffect from './components/UseEffect';
 
 
 function App() {
   return (
     <div className="App">
       {/*
-      <Navbar/>
-      <Meme/>
       <Form/>   
       <Counter/>   
-    <Signup/>
+      <Signup/>
+      <Ternary/>
+      <UseEffect/>
     */}
-    <Ternary/>
+    <Navbar/>
+    <Meme/>
 
 
     </div>
